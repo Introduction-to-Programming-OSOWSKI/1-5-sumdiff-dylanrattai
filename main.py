@@ -1,1 +1,4 @@
-#WRITE YOUR CODE IN THIS FILE
+def sumDiff(numOne, numTwo):
+    return (numOne + numTwo) - abs(numOne - numTwo)
+
+print(sumDiff(10, 5))
